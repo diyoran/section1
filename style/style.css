@@ -1,0 +1,462 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a,
+span,
+label,
+input,
+button,
+b,
+i,
+textarea {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+
+}
+
+a,
+label,
+input,
+button,
+textarea {
+    cursor: pointer;
+}
+
+
+
+.font {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-page {
+    width: 1920px;
+    height: 650px;
+    background-image: url(/img/bgBackgraund.jpg);
+   
+
+}
+
+/* внизу серый фон */
+
+.wrapper {
+    width: 1920px;
+    height: 650px;
+    background: url(/img/Vector.png);
+
+}
+
+.title {
+    color: #fff;
+    width: 491px;
+    height: 190px;
+    font-weight: 300;
+    font-size: 50px;
+
+}
+
+.title-wrap {
+    width: 200px;
+    position: relative;
+    left: 310px;
+    top: 170px;
+
+}
+
+.icon-drone {
+    position: relative;
+    width: 927px;
+    height: 200px;
+    top: 50px;
+    left: 24px;
+  
+
+}
+
+.title-info {
+    position: relative;
+    left: 300px;
+    top: 80px;
+    width: 728px;
+    height: 126px;
+    columns: 3;
+}
+
+.title-info_text {
+    width: 150px;
+    height: 43px;
+    display: inline-block;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.text_img {
+    width: 50px;
+    height: 40px;
+}
+
+.text {
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+
+/* end main page  */
+
+.offers {
+    width: 1920px;
+    background-color: rgb(25, 24, 24);
+
+
+
+}
+
+.link {
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+.links {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.green-active {
+    color: rgba(2, 229, 2, 1);
+
+}
+
+.offer {
+    width: 1070px;
+    height: 147px;
+    left: 300px;
+    top: 30px;
+    position: relative;
+
+}
+
+.offer-text {
+    color: rgba(2, 229, 2, 1);
+    font-size: 36px;
+    font-weight: 400;
+    left: 300px;
+    position: relative;
+    /* top: -105px; */
+   
+
+
+}
+
+.category_txt {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+
+
+}
+
+.line {
+    position: relative;
+    left: -5px;
+    width: 125px;
+    border: 1px;
+    padding-top: 10px;
+
+}
+
+
+.category {
+    position: relative;
+    left: 298px;
+    margin-top: -50px;
+}
+
+.categories{
+    position: relative;
+    left: 300px;
+}
+
+.category-list {
+  
+    width: 294px;
+    height: 1061px;
+    border: 1px;
+
+}
+
+.subcategory {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.subcategory-txt {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+
+.subcategory-img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.left {
+    position: relative;
+    left: 40px;
+}
+
+.lineTwo {
+    width: 300px;
+    border: 1px;
+    position: relative;
+    left: 290px;
+    top: -190px;
+
+}
+
+.manifacture {
+    width: 87px;
+    height: 18px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.info {
+    position: relative;
+    left: 300px;
+    top: -130px;
+    width: 295px;
+}
+
+#select {
+    width: 200px;
+    height: 50px;
+    border-color: #fff;
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: rgb(25, 24, 24);
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+.price {
+    color: #fff;
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 295px;
+}
+
+.input {
+    position: relative;
+    background: local;
+    border-color: #fff;
+    color: #fff;
+    top: 100px;
+    width: 76px;
+    height: 50px;
+    font-size: 20px;
+
+}
+
+/* image!  */
+
+.icon-line {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 300px;
+    top: -1600px;
+}
+
+.catalog-icon {
+    width: 100px;
+    height: 600px;
+    position: relative;
+    top: -3100px;
+    left: 1740px;
+
+}
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+}
+
+.catalog-list {
+    columns: 3;
+    position: relative;
+    /* left: 300px; */
+
+}
+
+.list-item {
+    display: block;
+    width: 330px;
+    height: 550px;
+    background-color: rgba(30, 29, 29, 1);
+
+
+
+
+}
+
+
+
+.item-img {
+    width: 258px;
+    height: 158px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+
+}
+
+.item-info {
+    position: relative;
+    left: 40px;
+}
+
+.item-name {
+    width: 187px;
+    height: 31px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    padding-top: 30px;
+
+}
+
+.item-brand {
+    width: 70px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.item-model {
+    width: 103px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #fff;
+    padding-top: 30px;
+
+
+}
+
+.item-price {
+    width: 92px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    padding-top: 60px;
+
+}
+
+.item-cart {
+    width: 234px;
+    height: 62px;
+    border: 1px;
+    border: 1px solid rgba(2, 229, 2, 1);
+    color: rgba(2, 229, 2, 1);
+    background: local;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 23px;
+    position: relative;
+    top: 70px;
+    left: 45px;
+}
+
+.second {
+    padding-top: 50px;
+}
+
+.offers {
+    background-image: url(/img/iconLine1.png);
+
+}
+
+.more-info {
+    width: max-content;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 980px;
+
+}
+
+.loadind-txt {
+    width: 177px;
+    height: 34px;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #fff;
+
+}
+
+.loading-img {
+    width: 33px;
+    height: 33px;
+    position: relative;
+    left: 70px;
+
+}
+
+.catalog-info{
+   position: relative;
+   left: 300px;
+}
