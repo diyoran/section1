@@ -51,7 +51,7 @@ textarea {
     width: 1920px;
     height: 650px;
     background-image: url(/img/bgBackgraund.jpg);
-   
+
 
 }
 
@@ -87,7 +87,7 @@ textarea {
     height: 200px;
     top: 50px;
     left: 24px;
-  
+
 
 }
 
@@ -129,7 +129,10 @@ textarea {
 
 .offers {
     width: 1920px;
+    height: 1550px;
     background-color: rgb(25, 24, 24);
+    display: flex;
+    flex-direction: column;
 
 
 
@@ -162,23 +165,26 @@ textarea {
 }
 
 .offer-text {
+    width: 300px;
     color: rgba(2, 229, 2, 1);
     font-size: 36px;
     font-weight: 400;
     left: 300px;
     position: relative;
-    /* top: -105px; */
-   
+    top: -70px;
+
 
 
 }
 
+
+
 .category_txt {
+    width: 110px;
     color: rgba(255, 255, 255, 1);
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.04em;
 
 
 }
@@ -192,24 +198,28 @@ textarea {
 
 }
 
-
-.category {
-    position: relative;
-    left: 298px;
-    margin-top: -50px;
+.catalog {
+    width: 1920px;
 }
 
-.categories{
+
+.category {
+    width: 200px;
+    position: relative;
+    left: 298px;
+}
+
+.categories {
     position: relative;
     left: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 
 .category-list {
-  
-    width: 294px;
-    height: 1061px;
+    width: 300px;
     border: 1px;
-
 }
 
 .subcategory {
@@ -223,7 +233,7 @@ textarea {
 
 .subcategory-txt {
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 18px;
     padding-left: 15px;
@@ -245,9 +255,8 @@ textarea {
 .lineTwo {
     width: 300px;
     border: 1px;
-    position: relative;
-    left: 290px;
-    top: -190px;
+    padding-top: 50px;
+
 
 }
 
@@ -264,10 +273,10 @@ textarea {
 }
 
 .info {
-    position: relative;
-    left: 300px;
-    top: -130px;
-    width: 295px;
+    width: 320px;
+    height: auto;
+    padding-top: 30px;
+
 }
 
 #select {
@@ -329,8 +338,6 @@ textarea {
 
 .catalog-list {
     columns: 3;
-    position: relative;
-    /* left: 300px; */
 
 }
 
@@ -420,7 +427,7 @@ textarea {
 }
 
 .second {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .offers {
@@ -428,17 +435,9 @@ textarea {
 
 }
 
-.more-info {
-    width: max-content;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 980px;
 
-}
 
-.loadind-txt {
+.loading-txt {
     width: 177px;
     height: 34px;
     font-size: 34px;
@@ -456,7 +455,17 @@ textarea {
 
 }
 
-.catalog-info{
-   position: relative;
-   left: 300px;
+.catalog-info {
+    position: relative;
+    left: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 500px;
 }
