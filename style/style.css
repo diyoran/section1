@@ -165,9 +165,6 @@ textarea {
 .offer {
     width: 1070px;
     height: 147px;
-    /* left: 300px;
-    top: 30px;
-    position: relative; */
 
 }
 
@@ -429,6 +426,7 @@ textarea {
 
 .offers {
     background-image: url(/img/iconLine1.png);
+    background-repeat: no-repeat;
 
 }
 
