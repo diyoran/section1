@@ -50,7 +50,7 @@ textarea {
 .main-page {
     width: 1920px;
     height: auto;
-    background-image: url(/img/bgBackgraund.jpg);
+    background-image: url(/section1/img/bgBackgraund.jpg);
 
 
 }
@@ -60,7 +60,7 @@ textarea {
 .wrapper {
     width: 1920px;
     height: 650px;
-    background: url(/img/Vector.png);
+    background: url(/section1/img/Vector.png);
 
 }
 
@@ -425,7 +425,7 @@ textarea {
 }
 
 .offers {
-    background-image: url(/img/iconLine1.png);
+    background-image: url(/section1/img/iconLine1.png);
     background-repeat: no-repeat;
 
 }
